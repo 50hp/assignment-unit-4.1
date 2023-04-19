@@ -98,15 +98,23 @@ console.log(getLast());
 
 
 
-console.log('----- Q8 -----');
+console.log('----- Q7 -----');
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
 function find( value, array ){
-  
+    for (let i=0; i<=(array.length); i++) {
+        if ( value === array[i] ) { 
+            return true;
+        }
+        else {
+            return false;
+        }
+    } 
 }
 //Test Call
-console.log(find());
+console.log(find('Isaac', ['Isaac','Joe','will']));
+console.log(find( 2, [1,2,3,4,5,6] ));
 
 
 
