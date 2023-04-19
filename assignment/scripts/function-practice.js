@@ -103,18 +103,17 @@ console.log('----- Q7 -----');
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
 function find( value, array ){
-    for (let i=0; i<=(array.length); i++) {
+    for (let i=0; i<(array.length); i++) {
         if ( value === array[i] ) { 
             return true;
         }
-        else {
-            return false;
-        }
-    } 
+     }
+        return false;
+    
 }
 //Test Call
 console.log(find('Isaac', ['Isaac','Joe','will']));
-console.log(find( 2, [1,2,3,4,5,6] ));
+console.log(find( 7, [1,2,3,4,5,6] ));
 
 
 
