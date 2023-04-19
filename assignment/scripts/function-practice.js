@@ -12,6 +12,9 @@ function hello() {
 console.log('Test - should say "Hello World!"', hello());
 
 
+
+
+
 // 2. Function to return an personalized hello, using the `name` argument.
 //    for example 'Hello, Jo!', or 'Hello, Stacy!'
 function helloName( name ) {
@@ -39,10 +42,12 @@ console.log(addNumbers(1,3));
 
 
 // 4. Function to multiply three numbers & return the result
-function multiplyThree( ){
+function multiplyThree( firstNumber, secondNumber, thridNumber ) {
 
+    return firstNumber * secondNumber * thridNumber;
 }
-
+//Test Call
+console.log(multiplyThree(3,4,5));
 
 
 
