@@ -19,7 +19,11 @@ function helloName( name ) {
   return `Hello, ${name} !`;
 }
 // Remember to call the function to test
-console.log(helloName());
+console.log(helloName('Isaac'));
+
+
+
+
 
 // 3. Function to add two numbers together & return the result
 function addNumbers( firstNumber, secondNumber ) {
@@ -27,12 +31,21 @@ function addNumbers( firstNumber, secondNumber ) {
     return firstNumber + secondNumber;
   // return firstNumber + secondNumber;
 }
+//Test Call
+console.log(addNumbers(1,3));
 
-console.log(addNumbers());
+
+
+
+
 // 4. Function to multiply three numbers & return the result
 function multiplyThree( ){
 
 }
+
+
+
+
 
 
 // 5. Function that will return true if a number is positive, 
