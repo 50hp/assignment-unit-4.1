@@ -140,14 +140,26 @@ console.log( 'isFirstLetter - should say false', isFirstLetter('z', 'apple') );
 
 
 
-
 console.log('----- Q9 -----');
 // 9. Function to return the sum of all numbers in an array
-function sumAll( ) {
-  let sum = 0
-  // TODO: loop to add items
+function sumAll( arr ) {
+    console.log('in sumAll');
+    console.log( arr.length );
+    let arrLength = arr;
+    let sum = 0
+    // TODO: loop to add items
+    for(let i = 0; i < ( arrLength.length ); i++ ) {
+        sum = sum + ( arr[i] );
+        console.log( sum );
+
+    }
   return sum;
 }
+console.log(sumAll([1,2,3,4,5,6,7,8]));
+
+
+
+
 
 console.log('----- Q10 ----');
 // 10. Function to return a new array of all positive (greater than zero)
