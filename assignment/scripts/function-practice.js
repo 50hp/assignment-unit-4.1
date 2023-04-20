@@ -177,10 +177,7 @@ function posArray( arr ) {
           }
 
     }
-
     return posArray;
-
-
 }
 //Test Call
 console.log(posArray( [1,-1,0,5,-4,-10,3,2] ));
@@ -192,3 +189,20 @@ console.log('----- Q11 ----');
 // 11. Pick a problem from Edabit(https://edabit.com/) or 
 //     CodeWars(https://www.codewars.com/). Then describe it 
 //     here in a comment, write the function, and test it!
+    //
+    //Return Negatice a function the takes any number you give it and returns it as a negative.
+function returnNeg( inPut ) {
+    console.log('in returnNeg' );
+    console.log( inPut );
+    if ( inPut > 0 ) {
+        return - + inPut;
+    }else if (inPut === 0 ) {
+        return null;
+    }else {
+        return inPut;
+    }
+
+
+}
+//Test Call
+console.log( returnNeg(5) );
